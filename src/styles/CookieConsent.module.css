@@ -38,6 +38,7 @@
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .reject-btn {
@@ -49,6 +50,7 @@
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
+    transition: 0.3s;
 }
 .cookieBtnDiv{
     display: flex;
@@ -58,6 +60,6 @@
 .accept-btn:hover {
     background-color: #EF233C;
 }
-.accept-btn:hover {
+.reject-btn:hover {
     background-color: #8D99AE;
 }

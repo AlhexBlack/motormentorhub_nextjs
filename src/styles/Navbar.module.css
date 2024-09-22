@@ -1,9 +1,5 @@
-/* html, body{
-    box-sizing: border-box;
-    overflow-x: hidden;
-    padding-top: 7vh;
-} */
-.nav{
+/* Navbar.module.css */
+.navContainer {
     position: fixed;
     top: 0;
     left: 0;
@@ -13,7 +9,8 @@
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.233);
     background-color: rgb(237, 242, 244);
 }
-.navdiv{
+
+.container {
     display: flex;
     justify-content: space-between;
     height: 10vh;
@@ -22,85 +19,109 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 }
-#link{
+
+.txtlogo a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(239, 35, 60);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#spanMen{
-    text-decoration: none;
-    color: rgb(20, 20, 20)
+
+.txtlogo a span {
+    color: rgb(20, 20, 20);
 }
-#toplinks{
+
+.topLinks {
     display: flex;
     list-style: none;
     gap: 20px;
 }
-#linktoo{
+
+.topLinks li a {
     text-decoration: none;
-    color: rgba(20, 20, 20, 0.137);
+    color: rgb(20, 20, 20);
     font-size: 16px;
     font-weight: 600;
     transition: all 0.5s ease 0s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#linktoo:hover{
+
+.topLinks li a:hover {
     color: rgb(239, 35, 60);
 }
-.active{
+
+.topLinks .active {
     color: rgb(239, 35, 60);
+    
 }
-.sideLinks{
+
+.sideLinks {
     position: fixed;
     flex-direction: column;
     top: 0;
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(43, 45, 66, 0.767);
+    background-color: rgba(43, 45, 66, 0.911);
     margin-top: 0;
     padding: 20px;
     color: white;
     transform: translateX(100%);
     opacity: 0;
+    list-style: none;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
-.sideLinks li a{
+
+.sideLinks li a {
     color: white;
+    text-decoration: none;
 }
-.hamburger{
+.sideLinks li{
+    cursor: pointer;
+    margin-top: 4vh;
+}
+
+.hamburger {
     display: none;
     cursor: pointer;
     padding: 5px 10px;
+    height: 4vh;
+    transition: 0.3s;
 }
-.bar{
+.hamburger:hover{
+    font-size: larger;
+}
+.bar {
     padding: 10px;
     border-radius: 5px;
 }
-.cancel:hover{
-    border-radius: 5px; 
+.cancel{
+    height: 4vh;
+    transition: 0.3s;
 }
-.searchDiv{
-    padding: 0;
+.cancel:hover {
+    font-size: larger;
 }
+
 .sideLinks.active {
     transform: translateX(0);
     opacity: 1;
 }
 
-@media (max-width: 1000px){
-    .topLinks{
+@media (max-width: 1030px) {
+    .topLinks {
         display: none;
     }
-    .hamburger{
+
+    .hamburger {
         display: flex;
         align-items: center;
     }
-
 }
+
 @media (min-width: 1001px) {
-    .nav{
+    .navContainer {
         backdrop-filter: blur(200px);
         -webkit-backdrop-filter: blur(200px);
         background-color: rgba(237, 242, 244, 0.267);

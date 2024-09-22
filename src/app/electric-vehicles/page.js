@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import ArticleCard from '@/components/ArticleCard';
 import Pagination from '@/components/Pagination';
 import blogPosts from '@/utils/blogData';
+import SearchLayout from '@/components/SearchLayout';
 import AdSenseComponent from '@/components/AdSenseComponent';
 
 const ARTICLES_PER_PAGE = 10;
@@ -34,6 +35,7 @@ export default function ElectricVehicles() {
 
   return (
     <div>
+      <SearchLayout>
       <div className="cardCont">
         {currentArticles.map((post, index) => (
           <div key={post.id}>
@@ -66,6 +68,7 @@ export default function ElectricVehicles() {
         totalPages={totalPages}
         onPageChange={handlePageChange}
       />
+      </SearchLayout>
     </div>
   );
 }

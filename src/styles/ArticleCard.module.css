@@ -1,4 +1,4 @@
-/* .articleCard{
+.articleCard{
     width: 385px;
     overflow: hidden;
     height: 600px;
@@ -49,6 +49,7 @@
     background-color: rgba(43, 45, 66, 0.726);
     border-radius: 45px 45px 45px 45px;
     box-shadow: 0 0 20px rgba(43, 45, 66, 0.658);
+    transition: 0.3s;
 }
 .readmore:hover{
     cursor: pointer;
@@ -59,10 +60,10 @@
 }
 
 
+/* SMALL CARD DESIGN
 SMALL CARD DESIGN
 SMALL CARD DESIGN
-SMALL CARD DESIGN
-SMALL CARD DESIGN
+SMALL CARD DESIGN */
 
 .articleCard.small {
     width: 30vh;
@@ -119,4 +120,4 @@ SMALL CARD DESIGN
         height: 18vh;
         width: 26vh;
     }
-} */
+}

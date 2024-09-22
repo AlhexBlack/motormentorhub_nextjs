@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import ArticleCard from '../../components/ArticleCard';
 import Pagination from '../../components/Pagination';
+import SearchLayout from '@/components/SearchLayout';
 import blogPosts from '../../utils/blogData';
 import AdSenseComponent from '@/components/AdSenseComponent';
 
@@ -34,6 +35,7 @@ export default function CarReviews() {
 
   return (
     <div>
+      <SearchLayout>
       <div className="cardCont">
         {currentArticles.map((post, index) => (
           <div key={post.id}>
@@ -66,6 +68,7 @@ export default function CarReviews() {
         totalPages={totalPages}
         onPageChange={handlePageChange}
       />
+      </SearchLayout>
     </div>
   );
 }

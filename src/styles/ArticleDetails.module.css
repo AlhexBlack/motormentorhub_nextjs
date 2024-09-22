@@ -1,4 +1,4 @@
-/* .articleContainer{
+.articleContainer{
     display: flex;
     flex-direction: column;
     padding-top: 20px;
@@ -21,14 +21,14 @@
 }
 
 @media (min-width:980px) {
-    article{
+    .article{
         width: 60vw;
     }
     .articleContainer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 20px 50px;
+        padding: 20px;
     }
     .sideCont {
         width: 30vw;
@@ -73,4 +73,4 @@
 }
 .titleAd{
     padding: 10px 20px;
-} */
+}

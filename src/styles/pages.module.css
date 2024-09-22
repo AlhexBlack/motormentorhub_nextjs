@@ -1,4 +1,4 @@
-/* .notFoundPage{
+.notFoundPage{
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -30,6 +30,7 @@
     text-decoration: none;
     font-size: 2vh;
     color: rgb(43, 45, 66);
+    transition: 0.3s;
 }
 .backHome:hover{
     background-color: rgb(239, 35, 60);
@@ -44,7 +45,7 @@
 .privacy-policy{
     padding: 2vh 6vh;
 }
-a{
+.notflink{
     text-decoration: none;
     color: rgb(239, 35, 60);
 }
@@ -71,8 +72,9 @@ a{
 .gmail {
     color: rgb(239, 35, 60);
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .gmail:hover {
     text-decoration: underline;
-} */
+}

@@ -4,11 +4,11 @@ import styles from '../styles/Footer.module.css';
 const Footer = () => {
   return (
     <div>
-      <footer className='footer'>
+      <footer className={styles.footer}>
         <div className={styles.footerContent}>
 
           <div className={styles.logo}>
-            <p>Motor<span className='span'>MentorHub</span></p>
+            <p>Motor<span className={styles.span}>MentorHub</span></p>
           </div>
 
           <div className={styles.footerContentDiv}>
@@ -16,23 +16,23 @@ const Footer = () => {
               <li>
                 <Link href="/">Home</Link>
               </li>
-              <hr className='hr' />
+              <hr className={styles.hr} />
               <li>
                 <Link href="/car-reviews">Car Reviews</Link>
               </li>
-              <hr />
+              <hr className={styles.hr} />
               <li>
                 <Link href="/maintenance-tips">Maintenance Tips</Link>
               </li>
-              <hr />
+              <hr className={styles.hr} />
               <li>
                 <Link href="/latest-news">Latest News</Link>
               </li>
-              <hr />
+              <hr className={styles.hr} />
               <li>
                 <Link href="/buying-guides">Buying Guides</Link>
               </li>
-              <hr />
+              <hr className={styles.hr} />
               <li>
                 <Link href="/electric-vehicles">Electric Vehicles</Link>
               </li>
