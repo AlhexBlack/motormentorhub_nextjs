@@ -1,0 +1,24 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.pagination li{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pagination li:hover {
+    background-color: #ef233b4f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}
+.activePage{
+    background-color: #EF233C;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}

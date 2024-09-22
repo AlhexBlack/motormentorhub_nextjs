@@ -1,0 +1,122 @@
+/* .articleCard{
+    width: 385px;
+    overflow: hidden;
+    height: 600px;
+    text-align: center;
+    background-color: rgba(141, 153, 174, 0.637);
+    border-radius: 45px 45px 45px 45px;
+    color: black;
+    box-shadow: 0 0 20px rgba(143, 143, 143, 0.493);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img img{
+    width: 385px;
+}
+.title{
+    padding: 0 10px;
+}
+.autDate{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    color: rgb(43, 45, 66);
+}
+.excerpt{
+    padding: 0 15px;
+}
+.readmore a{
+    color: rgb(141, 153, 174);
+    text-decoration: none;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.faRight{
+    font-size: x-large;
+    margin-top: 4.5px;
+}
+.readmore{
+    margin-top: auto;
+    margin-bottom: 1.6vh;
+    width: 90%;
+    padding: 4%;
+    background-color: rgba(43, 45, 66, 0.726);
+    border-radius: 45px 45px 45px 45px;
+    box-shadow: 0 0 20px rgba(43, 45, 66, 0.658);
+}
+.readmore:hover{
+    cursor: pointer;
+    background-color: rgb(43, 45, 66);
+}
+.articleInfo{
+    line-height: 1.2;
+}
+
+
+SMALL CARD DESIGN
+SMALL CARD DESIGN
+SMALL CARD DESIGN
+SMALL CARD DESIGN
+
+.articleCard.small {
+    width: 30vh;
+    overflow: hidden;
+    height: 20vh;
+    background-color: rgba(141, 153, 174, 0.637);
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    box-shadow: 0 0 20px rgba(143, 143, 143, 0.493);
+}
+
+.small .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+}
+.small .img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.small .readmore {
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    right: 3vh;
+    font-size: small;
+    padding: 0 5vw;
+    background-color: rgba(43, 45, 66, 0.726);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 20px rgba(43, 45, 66, 0.658);
+}
+.small .articleInfo {
+    display: none;
+    padding: 0;
+    width: 60vw;
+    font-size: 0.7rem;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (min-width:980px) {
+    .articleCard.small{
+        padding: 0;
+    }
+    .small .articleInfo {
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 750px) {
+    .articleCard.small{
+        height: 18vh;
+        width: 26vh;
+    }
+} */
