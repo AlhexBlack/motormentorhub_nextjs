@@ -40,7 +40,7 @@ const blogPosts = [
                <h3>10. Ford Fusion 2024</h3>  
                <p>The Fusion 2024 is making a comeback, and it’s better than ever. With a bold new look and an eco-friendly hybrid option, it’s like the car went on a yoga retreat and came back with a fresh perspective. The interior is comfortable, the handling is responsive, and the tech is top-notch, making the Fusion a strong contender in the sedan game.</p>
 
-      <p>In Conclusion: The sedans of 2024 are proof that you can have it all: style, comfort, performance, and affordability. Whether you’re looking for a family car or something to make your daily commute more enjoyable, these sedans offer something for everyone. So, go ahead, take one for a spin, and see what the future of driving feels like.</p>,</div>)
+      <p>In Conclusion: The sedans of 2024 are proof that you can have it all: style, comfort, performance, and affordability. Whether you’re looking for a family car or something to make your daily commute more enjoyable, these sedans offer something for everyone. So, go ahead, take one for a spin, and see what the future of driving feels like.</p></div>)
   },
   {
     id: 2,
