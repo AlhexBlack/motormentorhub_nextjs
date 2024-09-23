@@ -3,10 +3,15 @@
 import { useState } from 'react';
 import SearchBar from './SearchBar';
 
-export default function SearchLayout({ children }: { children: React.ReactNode }) {
-  const [searchResults, setSearchResults] = useState(null);
+type Post = {
+  id: string;
+  title: string;
+};
 
-  const handleSearchResults = (results: any) => {
+export default function SearchLayout({ children }: { children: React.ReactNode }) {
+  const [searchResults, setSearchResults] = useState<Post[] | null>(null);
+
+  const handleSearchResults = (results: Post[]) => {
     setSearchResults(results);
   };
 
@@ -25,7 +30,7 @@ export default function SearchLayout({ children }: { children: React.ReactNode }
                 <h3>Search Results:</h3>
                 <button className="clearButton" onClick={handleClearSearch}>Clear</button>
               </div>
-              {searchResults.map((post: any) => (
+              {searchResults.map((post) => (
                 <li key={post.id}>
                   <a href={`/blog/${post.id}`} onClick={handleClearSearch}>
                     {post.title}

@@ -5,12 +5,12 @@ export default function About() {
         <div className="about-container">
             <h1 className="heading">About MotorMentorHub</h1>
             <p className="texts">
-                Welcome to <strong>MotorMentorHub</strong>, your ultimate destination for everything related to cars! Whether you're looking for in-depth car reviews, expert maintenance tips, the latest industry news, or insightful buying guides, we've got you covered. Our goal is to empower car enthusiasts, buyers, and owners with reliable and well-researched information to make informed decisions.
+                Welcome to <strong>MotorMentorHub</strong>, your ultimate destination for everything related to cars! Whether you&apos;re looking for in-depth car reviews, expert maintenance tips, the latest industry news, or insightful buying guides, we&apos; ve got you covered. Our goal is to empower car enthusiasts, buyers, and owners with reliable and well-researched information to make informed decisions.
             </p>
 
             <h2 className="heading">Our Mission</h2>
             <p className="texts">
-                At <strong>MotorMentorHub</strong>, our mission is to deliver high-quality content that covers all aspects of the automotive world. We believe that buying, maintaining, and learning about cars shouldn't be overwhelming, and we're here to simplify that journey for you. From the latest trends in electric vehicles to practical advice on keeping your car in top shape, our blog serves as a one-stop resource for all car lovers.
+                At <strong>MotorMentorHub</strong>, our mission is to deliver high-quality content that covers all aspects of the automotive world. We believe that buying, maintaining, and learning about cars shouldn&apos; t be overwhelming, and we&apos; re here to simplify that journey for you. From the latest trends in electric vehicles to practical advice on keeping your car in top shape, our blog serves as a one-stop resource for all car lovers.
             </p>
 
             <h2 className="heading">Why Trust Us?</h2>
@@ -29,7 +29,7 @@ export default function About() {
             </p>
 
             <p className="texts">
-                Thank you for choosing <strong>MotorMentorHub</strong>. We're excited to be part of your automotive journey!
+                Thank you for choosing <strong>MotorMentorHub</strong>. We&apos; re excited to be part of your automotive journey!
             </p>
         </div>
     );

@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar1 from '../components/NavBar1';
 import Footer from '../components/Footer';
 import CookieConsent from '../components/CookieConsent';
+import Script from 'next/script';
 
 export const metadata = {
   title: 'MotorMentorHub - Steering You Through the World of Cars',
@@ -30,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="google-adsense-account" content="ca-pub-2885959714607738" />
 
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9MFNWF365R"></script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-9MFNWF365R" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

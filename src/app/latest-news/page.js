@@ -30,13 +30,13 @@ export default function LatestNews() {
     setCurrentPage(pageNumber);
   };
 
-  const shouldShowAd = currentArticles.length > 6;
+  // const shouldShowAd = currentArticles.length > 6;
 
   return (
     <div>
       <SearchLayout>
       <div className="cardCont">
-        {currentArticles.map((post, index) => (
+        {currentArticles.map((post) => (
           <div key={post.id}>
             <ArticleCard
               id={post.id}
@@ -48,11 +48,11 @@ export default function LatestNews() {
             />
 
             {/* Insert AdSense after 6 articles, but only if there are more than 6 articles */}
-            {index === 5 && shouldShowAd && isClient && (
+            {/* {index === 5 && shouldShowAd && isClient && (
               <div className="adsense-container">
                 <AdSenseComponent/>
               </div>
-            )}
+            )} */}
           </div>
         ))}
       </div>

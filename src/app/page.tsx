@@ -30,14 +30,14 @@ export default function Home() {
     setCurrentPage(pageNumber);
   };
 
-  const shouldShowAd = currentArticles.length > 6;
+  // const shouldShowAd = currentArticles.length > 6;
 
   return (
     <div>
       <SearchLayout>
       <Banner />
       <div className="cardCont">
-        {currentArticles.map((post, index) => (
+        {currentArticles.map((post) => (
           <div key={post.id}>
             <ArticleCard
               id={post.id}

@@ -26,7 +26,7 @@ export default function TermsOfService() {
 
       <h2>4. Limitation of Liability</h2>
       <p>
-        We are not liable for any damages arising from the use of our website. All content is provided "as is," and we
+        We are not liable for any damages arising from the use of our website. All content is provided &quot;as is,&quot; and we
         make no guarantees regarding accuracy, availability, or fitness for a particular purpose.
       </p>
 
