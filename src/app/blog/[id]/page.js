@@ -2,7 +2,7 @@ import ArticleCard from '@/components/ArticleCard'; // Adjust the path if needed
 import blogPosts from '@/utils/blogData'; // Adjust the path if needed
 import styles from '../../../styles/ArticleDetails.module.css';
 import { notFound } from 'next/navigation';
-import AdSenseComponent from '../../../components/AdSenseComponent'; // Separate client-side component
+import AdSenseComponent from '../../../components/AdSenseComponent';
 
 const latestNews = blogPosts.filter(post => post.category === 'Latest News');
 

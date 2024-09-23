@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, SetStateAction } from 'react';
 import Banner from '../components/Banner';
 import ArticleCard from '../components/ArticleCard';
 import Pagination from '../components/Pagination';
 import blogPosts from '../utils/blogData';
 import AdSenseComponent from '@/components/AdSenseComponent';
 import SearchLayout from '@/components/SearchLayout';
+import './globals.css';
 
 const ARTICLES_PER_PAGE = 10;
 
@@ -25,7 +26,7 @@ export default function Home() {
 
   const totalPages = Math.ceil(blogPosts.length / ARTICLES_PER_PAGE);
 
-  const handlePageChange = (pageNumber) => {
+  const handlePageChange = (pageNumber: SetStateAction<number>) => {
     setCurrentPage(pageNumber);
   };
 
@@ -49,18 +50,29 @@ export default function Home() {
             />
 
             {/* Insert AdSense after 6 articles, but only if there are more than 6 articles */}
-            {index === 5 && shouldShowAd && isClient && (
+            {/* {index === 5 && shouldShowAd && isClient && (
               <div className="adsense-container">
-                <AdSenseComponent />
+                <AdSenseComponent 
+                adLayoutKey=""
+                adSlot=""
+                adFormat=''
+                adStyle=""
+                key="" />
+
               </div>
-            )}
+            )} */}
           </div>
         ))}
       </div>
 
       {/* Ad at the bottom of the articles, only on the client side */}
       {isClient && (
-        <AdSenseComponent />
+        <AdSenseComponent 
+          adLayoutKey=""
+          adSlot=""
+          adFormat=''
+          adStyle=""
+          key="" />
       )}
 
       <Pagination

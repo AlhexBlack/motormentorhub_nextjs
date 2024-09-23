@@ -46,11 +46,11 @@ export default function MaintenanceTips() {
             />
 
             {/* Insert AdSense after 6 articles, but only if there are more than 6 articles */}
-            {index === 5 && shouldShowAd && isClient && (
+            {/* {index === 5 && shouldShowAd && isClient && (
               <div className="adsense-container">
                 <AdSenseComponent/>
               </div>
-            )}
+            )} */}
           </div>
         ))}
       </div>

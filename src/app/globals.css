@@ -16,6 +16,23 @@ html, body {
   column-gap: 20px;
   padding: 20px;
 }
+.adCard {
+  width: 100%;
+  /* Make this the same as your article card width */
+  height: auto;
+  /* Adjust as per your layout */
+  border-radius: 15px;
+  /* Same as your cards */
+  overflow: hidden;
+  /* Prevent content overflow */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  /* Optional: Styling similar to cards */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edf2f4;
+}
 .searchList {
   list-style: none;
   background-color: rgb(237, 242, 244);

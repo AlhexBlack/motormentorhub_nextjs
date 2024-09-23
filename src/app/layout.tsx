@@ -28,6 +28,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="url" content="https://motormentorhub.com.ng/" />
         <meta name="type" content="website" />
         <meta name="google-adsense-account" content="ca-pub-2885959714607738" />
+
+        {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-9MFNWF365R"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -36,6 +38,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-9MFNWF365R');
+            `,
+          }}
+        />
+
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          crossOrigin="anonymous"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-2885959714607738",
+                enable_page_level_ads: true
+              });
             `,
           }}
         />

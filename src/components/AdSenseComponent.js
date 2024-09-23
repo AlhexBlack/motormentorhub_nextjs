@@ -3,12 +3,11 @@
 import { useEffect } from 'react';
 import Script from 'next/script';
 
-export default function AdSenseComponent() {
+export default function AdSenseComponent({ adFormat = 'auto', adSlot, adStyle = {}, adLayoutKey }) {
     useEffect(() => {
         // Ensure Google AdSense ads are rendered
         if (typeof window !== 'undefined' && window.adsbygoogle) {
             try {
-                // Only push adsbygoogle if it hasn't already been pushed
                 (window.adsbygoogle = window.adsbygoogle || []).push({});
             } catch (e) {
                 console.error('AdSense adsbygoogle push error', e);
@@ -20,21 +19,26 @@ export default function AdSenseComponent() {
         <div>
             {/* Load the Google AdSense script */}
             <Script
-                strategy="afterInteractive" // Loads after the page is interactive
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                strategy="afterInteractive"
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2885959714607738"
+                crossorigin="anonymous"
                 onError={(e) => console.error('AdSense script failed to load', e)}
             />
 
             {/* Google AdSense Ad */}
+            <div className='adCard'>
             <ins
                 className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-XXXXXX" // Replace with your AdSense Publisher ID
-                data-ad-slot="XXXXXX" // Replace with your Ad Slot ID
-                data-ad-format="auto"
+                style={{ display: 'block', ...adStyle }} // Apply custom style
+                data-ad-client="ca-pub-2885959714607738" // Your AdSense Publisher ID
+                data-ad-slot={adSlot} // Dynamic Ad Slot ID
+                data-ad-format={adFormat} // Dynamic format (e.g., auto, horizontal, etc.)
                 data-full-width-responsive="true"
-                key={Date.now()} // Use current timestamp to ensure a unique key
+                data-ad-layout-key={adLayoutKey} // Optional layout key for in-feed or in-article ads
+                key={Date.now()} // Unique key to trigger re-render
             ></ins>
+            </div>
         </div>
     );
 }

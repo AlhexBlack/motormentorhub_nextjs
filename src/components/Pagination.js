@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import styles from '../styles/Pagination.module.css';
@@ -9,6 +9,16 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
     for (let i = 1; i <= totalPages; i++) {
         pageNumbers.push(i);
     }
+
+    // Scroll to the top when the page changes, only in the browser
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            });
+        }
+    }, [currentPage]);
 
     return (
         <div>
