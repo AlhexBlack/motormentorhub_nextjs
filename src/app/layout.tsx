@@ -1,5 +1,3 @@
-// app/layout.tsx (Server Component)
-
 import './globals.css';
 import Navbar1 from '../components/NavBar1';
 import Footer from '../components/Footer';

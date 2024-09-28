@@ -1,4 +1,4 @@
-.cookie-consent {
+.cookieConsent {
     position: fixed;
     bottom: 20px;
     left: 0;
@@ -19,17 +19,17 @@
     margin-right: auto;
 }
 
-.cookie-consent p {
+.cookieConsent p {
     margin: 0;
     font-size: 14px;
 }
 
-.cookie-consent a {
+.cookieConsent a {
     color: #fff;
     text-decoration: underline;
 }
 
-.accept-btn {
+.acceptBtn {
     background-color: #ef233bab;
     color: white;
     border: none;
@@ -41,7 +41,7 @@
     transition: 0.3s;
 }
 
-.reject-btn {
+.rejectBtn {
     background-color: #8d99aebd;
     color: white;
     border: none;
@@ -57,9 +57,9 @@
     justify-content: flex-end;
     gap: 5vw;
 }
-.accept-btn:hover {
+.acceptBtn:hover {
     background-color: #EF233C;
 }
-.reject-btn:hover {
+.rejectBtn:hover {
     background-color: #8D99AE;
 }

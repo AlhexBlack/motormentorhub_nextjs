@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, SetStateAction } from 'react';
-import Banner from '../components/Banner';
 import ArticleCard from '../components/ArticleCard';
 import Pagination from '../components/Pagination';
 import blogPosts from '../utils/blogData';
@@ -35,7 +34,29 @@ export default function Home() {
   return (
     <div>
       <SearchLayout>
-      <Banner />
+      <img 
+        srcSet="
+          /images/pcmmh4.webp 640w,
+          /images/pcmmh3.webp 1040w,
+          /images/pcmmh2-Copy.webp 1460w,
+          /images/pcmmh-Copy.webp 1920w"
+        sizes="
+          (max-width: 640px) 100vw,
+          (max-width: 1040px) 100vw,
+          (max-width: 1460px) 100vw,
+          100vw"
+        src="/images/pcmmh-Copy.webp" 
+        alt="Responsive Banner" 
+        style={{ 
+          height: '40vh', 
+          width: '100vw', 
+          objectFit: 'cover', 
+          objectPosition: 'bottom', 
+          marginTop: '20px' 
+        }}
+        loading='lazy'
+      />
+
       <div className="cardCont">
         {currentArticles.map((post) => (
           <div key={post.id}>

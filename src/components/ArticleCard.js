@@ -2,14 +2,13 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import styles from '../styles/ArticleCard.module.css';
-import Image from 'next/image';
 
 function ArticleCard({ id, title, size, imgSrc, excerpt, author, date }) {
   return (
     <div className={`${styles.articleCard} ${styles[size]}`}>
       <div className={styles.img}>
         <Link href={`/blog/${id}`} passHref>
-          <Image src={imgSrc} alt={title} />
+          <img src={imgSrc} alt={title} />
         </Link>
       </div>
 
