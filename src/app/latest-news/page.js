@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ArticleCard from '../../components/ArticleCard';
 import Pagination from '../../components/Pagination';
 import SearchLayout from '@/components/SearchLayout';
@@ -13,9 +13,6 @@ const carReviews = blogPosts.filter(post => post.category === 'Latest News');
 export default function CarReviews() {
   const [currentPage, setCurrentPage] = useState(1);
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   const indexOfLastArticle = currentPage * ARTICLES_PER_PAGE;
   const indexOfFirstArticle = indexOfLastArticle - ARTICLES_PER_PAGE;
@@ -43,12 +40,6 @@ export default function CarReviews() {
                 date={post.date}
               />
 
-              {/* Insert AdSense after 6 articles, but only if there are more than 6 articles */}
-              {/* {index === 5 && shouldShowAd && isClient && (
-              <div className="adsense-container">
-                
-              </div>
-            )} */}
             </div>
           ))}
         </div>

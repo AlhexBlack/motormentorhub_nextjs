@@ -111,6 +111,19 @@ html, body {
 .terms-of-service a:hover {
   text-decoration: underline;
 }
+.about-container {
+  padding: 2vh 6vh;
+}
+
+.about-container a {
+  color: rgb(239, 35, 60);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
 .faRight {
   font-size: x-large;
   margin-top: 4.5px;
