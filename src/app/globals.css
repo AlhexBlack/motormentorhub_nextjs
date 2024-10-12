@@ -87,3 +87,31 @@ html, body {
 .noResults p {
   font-size: 2rem;
 }
+.privacy-policy {
+  padding: 2vh 6vh;
+}
+.privacy-policy a {
+    color: rgb(239, 35, 60);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.privacy-policy a:hover{
+  text-decoration: underline;
+}
+.terms-of-service {
+  padding: 2vh 6vh;
+}
+
+.terms-of-service a {
+  color: rgb(239, 35, 60);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.terms-of-service a:hover {
+  text-decoration: underline;
+}
+.faRight {
+  font-size: x-large;
+  margin-top: 4.5px;
+}

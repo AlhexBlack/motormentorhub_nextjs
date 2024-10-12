@@ -32,13 +32,13 @@
     color: rgb(20, 20, 20);
 }
 
-.topLinks {
+#topLinks {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-.topLinks li a {
+#topLinks li a {
     text-decoration: none;
     color: rgb(20, 20, 20);
     font-size: 16px;
@@ -47,11 +47,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.topLinks li a:hover {
+#topLinks li a:hover {
     color: rgb(239, 35, 60);
 }
 
-.topLinks .active {
+#topLinks .active {
     color: rgb(239, 35, 60);
     
 }
@@ -110,7 +110,7 @@
 }
 
 @media (max-width: 1030px) {
-    .topLinks {
+    #topLinks {
         display: none;
     }
 

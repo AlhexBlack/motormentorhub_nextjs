@@ -9,11 +9,3 @@ const nextConfig = {
 
 export default nextConfig;
 
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//     images: {
-//         unoptimized: false, // Server-side rendering can optimize images
-//     },
-// };
-
-// export default nextConfig;

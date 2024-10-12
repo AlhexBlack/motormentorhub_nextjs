@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta charSet="utf-8" />
         <link rel="icon" href="/images/mmhLogo.ico" />
-        <link rel="canonical" href="https://motormentorhub.com.ng/" />
+        <link rel="canonical" href="https://www.motormentorhub.com.ng/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#EDF2F4" />
         <meta name="title" content="MotorMentorHub - Steering You Through the World of Cars" />
@@ -30,7 +30,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Google Analytics */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-9MFNWF365R" />
-        <script
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -42,12 +44,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
 
         {/* Google AdSense */}
-        <script
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           crossOrigin="anonymous"
-        ></script>
-        <script
+        ></Script>
+        <Script
+          id="adsense-setup"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (adsbygoogle = window.adsbygoogle || []).push({
@@ -61,9 +65,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <div className="app">
           <Navbar1 />
+          <CookieConsent/>
           <main>{children}</main>
           <Footer />
-          <CookieConsent />
         </div>
       </body>
     </html>

@@ -15,6 +15,8 @@ function SearchBar({ onSearchResults }) {
     return (
         <form onSubmit={handleSearch} className={styles.searchBar}>
             <input
+                id='searchBar'
+                name='Search'
                 type="text"
                 placeholder="Search blogs..."
                 value={query}

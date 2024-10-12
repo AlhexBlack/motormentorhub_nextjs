@@ -1,4 +1,4 @@
-import '@/styles/pages.module.css';
+import "../../styles/pages.module.css"
 
 export default function PrivacyPolicy() {
   return (
@@ -21,15 +21,19 @@ export default function PrivacyPolicy() {
 
       <h2>3. Cookies</h2>
       <p>
-        Our site uses cookies to enhance your browsing experience. Cookies help us understand how users interact with our
-        website, including through tools like Google Analytics, which uses cookies to collect anonymous data about your visits.
-        Google AdSense may also use cookies to deliver personalized ads based on user behavior.
+        Our website uses cookies to enhance your experience and collect data regarding your browsing behavior. Cookies help us:
+      </p>  
+        <ul>
+          <li>Analyze traffic using tools like Google Analytics.</li>
+          <li>Serve personalized ads through Google AdSense.</li>
+        </ul>
+        <p>
+        You have the option to manage your cookie preferences through the notification banner that appears when you first visit our site.
+        You can also modify your cookie settings in your browser at any time.
       </p>
       <p>
-        You can disable cookies through your browser settings or opt-out of personalized ads through <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer">Google’s Ad Settings</a>.
-      </p>
-      <p>
-        When you visit our site, you will see a notification to manage your cookie preferences. You can choose to allow or disable certain types of cookies according to your preferences.
+        For more information on how Google AdSense uses cookies to deliver personalized ads, you can opt out via&nbsp;
+        <a className='ppLink' href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer">Google’s Ad Settings</a>.
       </p>
 
       <h2>4. Third-Party Services</h2>
@@ -46,25 +50,34 @@ export default function PrivacyPolicy() {
 
       <h2>6. Google AdSense and Analytics</h2>
       <p>
-        We use Google AdSense to display ads and Google Analytics to track user activity on our website. Google Analytics collects data on users’ browsing behavior, including IP addresses, browser types, and interactions with our site, to help us improve the user experience. This information is collected anonymously, and Google Analytics does not share any personally identifiable information.
+        We use Google AdSense to display ads and Google Analytics to track user activity on our website. Google Analytics collects
+        anonymous data on users’ browsing behavior, including IP addresses, browser types, and interactions with our site, to help
+        us improve the user experience.
       </p>
       <p>
-        To learn more about how Google uses this data or to opt out, visit <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s Privacy Policy</a> and the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.
+        Google AdSense may use cookies to display personalized ads based on your browsing history. You can control ad personalization
+        by adjusting your cookie preferences through our cookie consent popup or via&nbsp;
+        <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer">Google’s Ad Settings</a>.
+      </p>
+      <p>
+        To opt-out of Google Analytics tracking, you can install the&nbsp;
+        <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.
       </p>
 
       <h2>7. User Rights</h2>
       <p>
-        You have the right to access, update, or request deletion of your personal data. To exercise these rights,
-        contact us at <a href="mailto:motormentorhub@gmail.com">motormentorhub@gmail.com</a>.
+        You have the right to access, update, or request deletion of your personal data. To exercise these rights, contact us at&nbsp;
+        <a href="mailto:motormentorhub@gmail.com">motormentorhub@gmail.com</a>.
       </p>
 
       <h2>8. Changes to This Privacy Policy</h2>
       <p>
         We may update this Privacy Policy from time to time. We encourage you to review this page regularly for any changes.
-        Continued use of our website after any modifications indicate acceptance of the updated policy.
+        Continued use of our website after any modifications indicates acceptance of the updated policy.
       </p>
 
       <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:motormentorhub@gmail.com">motormentorhub@gmail.com</a></p>
     </div>
+
   );
 }

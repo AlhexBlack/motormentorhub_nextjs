@@ -1,6 +1,6 @@
 "use client";
 
-import { useState} from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from '../styles/Navbar.module.css';
@@ -9,15 +9,15 @@ import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   const [isSidenavVisible, setIsSidenavVisible] = useState(false);
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   const links = [
-    { path: '/', label: 'Home'},
-    { path: '/car-reviews', label: 'Car Reviews'},
-    { path: '/maintenance-tips', label: 'Maintenance Tips'},
-    { path: '/latest-news', label: 'Latest News'},
-    { path: '/buying-guides', label: 'Buying Guides'},
-    { path: '/electric-vehicles', label: 'Electric Vehicles'},
+    { path: '/', label: 'Home' },
+    { path: '/car-reviews', label: 'Car Reviews' },
+    { path: '/maintenance-tips', label: 'Maintenance Tips' },
+    { path: '/latest-news', label: 'Latest News' },
+    { path: '/buying-guides', label: 'Buying Guides' },
+    { path: '/electric-vehicles', label: 'Electric Vehicles' },
   ];
 
   const toggleSidenav = () => {
@@ -35,12 +35,16 @@ function Navbar() {
           </h2>
 
           {/* Top Links */}
-          <ul className={styles.topLinks}>
+          <ul id={styles.topLinks}>
             {links.map((link) => (
-              <li key={link.id}>
+              <li key={link.path}>
                 <Link
                   href={link.path}
-                  className={pathname === link.path ? styles.active : ''}
+                  className={
+                    link.path === '/'
+                      ? pathname === link.path ? styles.active : ''
+                      : pathname.startsWith(link.path) ? styles.active : ''
+                  }
                 >
                   {link.label}
                 </Link>
@@ -58,10 +62,14 @@ function Navbar() {
               <FontAwesomeIcon icon={faXmark} />
             </li>
             {links.map((link) => (
-              <li key={link.id}>
+              <li key={link.path}>
                 <Link
                   href={link.path}
-                  className={pathname === link.path ? styles.active : ''}
+                  className={
+                    link.path === '/'
+                      ? pathname === link.path ? styles.active : ''
+                      : pathname.startsWith(link.path) ? styles.active : ''
+                  }
                 >
                   {link.label}
                 </Link>

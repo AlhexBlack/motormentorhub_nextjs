@@ -1,25 +1,18 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import ArticleCard from '@/components/ArticleCard';
 import Pagination from '@/components/Pagination';
 import blogPosts from '@/utils/blogData';
 import SearchLayout from '@/components/SearchLayout';
-import AdSenseComponent from '@/components/AdSenseComponent';
 
 const ARTICLES_PER_PAGE = 10;
 
-// Filter articles in the "Buying Guide" category
 const buyingGuide = blogPosts.filter(post => post.category === 'Buying Guide');
 
 export default function BuyingGuides() {
   const [currentPage, setCurrentPage] = useState(1);
-  const [isClient, setIsClient] = useState(false); // Track if we are on the client side
 
-  useEffect(() => {
-    // Set isClient to true after the component has mounted on the client side
-    setIsClient(true);
-  }, []);
 
   const indexOfLastArticle = currentPage * ARTICLES_PER_PAGE;
   const indexOfFirstArticle = indexOfLastArticle - ARTICLES_PER_PAGE;
@@ -30,8 +23,6 @@ export default function BuyingGuides() {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
-
-  // const shouldShowAd = currentArticles.length > 6;
 
   return (
     <div>
@@ -48,20 +39,9 @@ export default function BuyingGuides() {
               date={post.date}
             />
 
-            {/* Insert AdSense after 6 articles, but only if there are more than 6 articles */}
-            {/* {index === 5 && shouldShowAd && isClient && (
-              <div className="adsense-container">
-                <AdSenseComponent />
-              </div>
-            )} */}
           </div>
         ))}
       </div>
-
-      {/* Ad at the bottom of the articles, only on the client side */}
-      {isClient && (
-        <AdSenseComponent />
-      )}
 
       <Pagination
         currentPage={currentPage}

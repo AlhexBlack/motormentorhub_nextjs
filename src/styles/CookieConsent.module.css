@@ -11,7 +11,7 @@
     justify-content: space-between;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    row-gap: 5vw;
+    row-gap: 15px;
     column-gap: 5vw;
     border-radius: 2vh;
     width: 90vw;
@@ -21,7 +21,7 @@
 
 .cookieConsent p {
     margin: 0;
-    font-size: 14px;
+    font-size: 1.1rem;
 }
 
 .cookieConsent a {

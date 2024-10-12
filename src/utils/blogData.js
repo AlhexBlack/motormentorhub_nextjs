@@ -40,7 +40,7 @@ const blogPosts = [
                <h3>10. Ford Fusion 2024</h3>  
                <p>The Fusion 2024 is making a comeback, and it’s better than ever. With a bold new look and an eco-friendly hybrid option, it’s like the car went on a yoga retreat and came back with a fresh perspective. The interior is comfortable, the handling is responsive, and the tech is top-notch, making the Fusion a strong contender in the sedan game.</p>
 
-      <p>In Conclusion: The sedans of 2024 are proof that you can have it all: style, comfort, performance, and affordability. Whether you’re looking for a family car or something to make your daily commute more enjoyable, these sedans offer something for everyone. So, go ahead, take one for a spin, and see what the future of driving feels like.</p>,</div>)
+      <p>In Conclusion: The sedans of 2024 are proof that you can have it all: style, comfort, performance, and affordability. Whether you’re looking for a family car or something to make your daily commute more enjoyable, these sedans offer something for everyone. So, go ahead, take one for a spin, and see what the future of driving feels like.</p></div>)
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const blogPosts = [
     author: 'admin',
     date: '2023-08-14',
     category: 'Maintenance Tips',
-    content: <div><p>Owning a car is like having a pet – it requires love, attention, and the occasional trip to the vet.But unlike your furry friend, your car won’t give you puppy eyes when it needs care.That&apos; s why regular maintenance is essential. Here are five tips that will not only extend the life of your car but also keep your wallet happy and your driving smooth.</p>
+    content: <div><p>Owning a car is like having a pet – it requires love, attention, and the occasional trip to the vet.But unlike your furry friend, your car won’t give you puppy eyes when it needs care.That&apos;s why regular maintenance is essential. Here are five tips that will not only extend the life of your car but also keep your wallet happy and your driving smooth.</p>
 
       <h3>1. Regular Oil Changes: Your Engine&apos;s Fountain of Youth</h3>
               <p>Imagine going for a jog without water – that’s your engine without oil. Regular oil changes are crucial for keeping all those moving parts well-lubricated and preventing overheating. Don’t ignore the oil change light on your dashboard; it’s not just a suggestion. Check your owner’s manual for the recommended oil change frequency, and stick to it like glue. Trust us, your engine will thank you with a longer life and fewer repair bills.</p>
