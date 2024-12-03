@@ -1,6 +1,7 @@
 const blogPosts = [
   {
     id: 1,
+    thumbnailSrc: '/images/thumbnails/tn_top_10_sedans.jpg',
     imgSrc: '/images/top_10_sedans.jpg',
     alt: 'Top 10 Sedans of 2024',
     title: 'Top 10 Sedans of 2024: Comfort and Performance Combined',
@@ -44,6 +45,7 @@ const blogPosts = [
   },
   {
     id: 2,
+    thumbnailSrc: '/images/thumbnails/tn_essentialMaintenanceTips.jpg',
     imgSrc: '/images/essentialMaintenanceTips.jpg',
     alt: 'Essential Maintenance Tips for Car Owners',
     title: '5 Essential Maintenance Tips Every Car Owner Should Know',
@@ -72,6 +74,7 @@ const blogPosts = [
   },
   {
     id: 3,
+    thumbnailSrc: '/images/thumbnails/tn_the_future_ev.jpg',
     imgSrc: '/images/the_future_ev.jpg',
     alt: 'Latest News in Electric Vehicles',
     title: 'The Future of Electric Vehicles: What to Expect in 2024',
@@ -100,6 +103,7 @@ const blogPosts = [
   },
   {
     id: 4,
+    thumbnailSrc: '/images/thumbnails/tn_a_guide_to_buying.jpg',
     imgSrc: '/images/a_guide_to_buying.jpg',
     alt: 'A Guide to Buying Your First Car',
     title: 'Buying Your First Car? Here’s Everything You Need to Know',
@@ -134,6 +138,7 @@ const blogPosts = [
   },
   {
     id: 5,
+    thumbnailSrc: '/images/thumbnails/tn_EVvsGC.jpg',
     imgSrc: '/images/EVvsGC.jpg',
     alt: 'Electric Vehicles vs Gasoline Cars',
     title: 'Electric Vehicles vs. Gasoline Cars: Which One Should You Buy?',
@@ -159,6 +164,7 @@ const blogPosts = [
   },
   {
     id: 6,
+    thumbnailSrc: '/images/thumbnails/tn_TeslaModelS.jpg',
     imgSrc: '/images/TeslaModelS.jpg',
     alt: '2024 Tesla Model S Review',
     title: '2024 Tesla Model S Review: The Future of Luxury Electric Cars',
@@ -184,6 +190,7 @@ const blogPosts = [
   },
   {
     id: 7,
+    thumbnailSrc: '/images/thumbnails/tn_KeepYourCarEngine.jpg',
     imgSrc: '/images/KeepYourCarEngine.jpg',
     alt: 'How to Keep Your Car’s Engine in Top Shape',
     title: 'How to Keep Your Car’s Engine in Top Shape: A Comprehensive Guide',
@@ -212,6 +219,7 @@ const blogPosts = [
   },
   {
     id: 8,
+    thumbnailSrc: '/images/thumbnails/tn_AutonomousVehicles.jpg',
     imgSrc: '/images/AutonomousVehicles.jpg',
     alt: 'The Rise of Autonomous Vehicles',
     title: 'The Rise of Autonomous Vehicles: Are We Ready for Self-Driving Cars?',
@@ -240,6 +248,7 @@ const blogPosts = [
   },
   {
     id: 9,
+    thumbnailSrc: '/images/thumbnails/tn_SUVstoBuy.jpg',
     imgSrc: '/images/SUVstoBuy.jpg',
     alt: 'Top 10 Best SUVs to Buy in 2024',
     title: 'Top 10 Best SUVs to Buy in 2024: Ultimate Buying Guide',
@@ -283,6 +292,7 @@ const blogPosts = [
   },
   {
     id: 10,
+    thumbnailSrc: '/images/thumbnails/tn_OwninganElectricVehicle.jpg',
     imgSrc: '/images/OwninganElectricVehicle.jpg',
     alt: 'The Benefits of Owning an Electric Vehicle',
     title: 'The Benefits of Owning an Electric Vehicle: Why You Should Make the Switch',
@@ -317,6 +327,7 @@ const blogPosts = [
   },
   {
     id: 11,
+    thumbnailSrc: '/images/thumbnails/tn_MaintenanceTipsforSummer.jpg',
     imgSrc: '/images/MaintenanceTipsforSummer.jpg',
     alt: 'Essential Car Maintenance Tips for Summer',
     title: 'Beat the Heat: Essential Car Maintenance Tips for Summer',
@@ -351,6 +362,7 @@ const blogPosts = [
   },
   {
     id: 12,
+    thumbnailSrc: '/images/thumbnails/tn_Porsche911Review.jpg',
     imgSrc: '/images/Porsche911Review.jpg',
     alt: '2024 Porsche 911 Review',
     title: '2024 Porsche 911 Review: The Iconic Sports Car, Redefined',
@@ -379,6 +391,7 @@ const blogPosts = [
   },
   {
     id: 13,
+    thumbnailSrc: '/images/thumbnails/tn_Self-DrivingCars.jpg',
     imgSrc: '/images/Self-DrivingCars.jpg',
     alt: 'Self-Driving Cars Update 2024',
     title: 'Self-Driving Cars: 2024 Update – How Close Are We to a Driverless Future?',
@@ -407,6 +420,7 @@ const blogPosts = [
   },
   {
     id: 14,
+    thumbnailSrc: '/images/thumbnails/tn_SUVforYourFamily.jpg',
     imgSrc: '/images/SUVforYourFamily.jpg',
     alt: 'Choosing the Best SUV for Your Family',
     title: 'Choosing the Best SUV for Your Family: Top Picks for 2024',
@@ -435,6 +449,7 @@ const blogPosts = [
   },
   {
     id: 15,
+    thumbnailSrc: '/images/thumbnails/tn_FutureofTransportation.jpg',
     imgSrc: '/images/FutureofTransportation.jpg',
     alt: 'Why Electric Vehicles Are the Future of Transportation',
     title: 'Why Electric Vehicles Are the Future of Transportation: A Deep Dive into the EV Revolution',
@@ -464,6 +479,7 @@ const blogPosts = [
 
   {
     id: 16,
+    thumbnailSrc: '/images/thumbnails/tn_BMWiX3Review.jpg',
     imgSrc: '/images/BMWiX3Review.jpg',
     alt: '2024 BMW iX3 Review',
     title: '2024 BMW iX3 Review: A Luxury SUV with an Electric Twist',
@@ -492,6 +508,7 @@ const blogPosts = [
   },
   {
     id: 17,
+    thumbnailSrc: '/images/thumbnails/tn_extendtheLifespan.jpg',
     imgSrc: '/images/extendtheLifespan.jpg',
     alt: 'How to Extend the Lifespan of Your Vehicle',
     title: 'How to Extend the Lifespan of Your Vehicle: Expert Maintenance Tips You Need to Know',
@@ -523,6 +540,7 @@ const blogPosts = [
   },
   {
     id: 18,
+    thumbnailSrc: '/images/thumbnails/tn_selfDrivingCarsLatest.jpg',
     imgSrc: '/images/selfDrivingCarsLatest.jpg',
     alt: 'Self-Driving Cars: The Latest Breakthroughs and What to Expect',
     title: 'Self-Driving Cars: The Latest Breakthroughs and What to Expect in the Near Future',
@@ -551,6 +569,7 @@ const blogPosts = [
   },
   {
     id: 19,
+    thumbnailSrc: '/images/thumbnails/tn_theUltimateGuide.jpg',
     imgSrc: '/images/theUltimateGuide.jpg',
     alt: 'The Ultimate Guide to Choosing Your First Electric Car',
     title: 'The Ultimate Guide to Choosing Your First Electric Car: What to Consider Before Making the Switch',
@@ -579,6 +598,7 @@ const blogPosts = [
   },
   {
     id: 20,
+    thumbnailSrc: '/images/thumbnails/tn_toyotaCamryHybrid.jpg',
     imgSrc: '/images/toyotaCamryHybrid.jpg',
     alt: '2024 Toyota Camry Hybrid Review',
     title: '2024 Toyota Camry Hybrid Review: A Perfect Blend of Efficiency and Comfort',
@@ -604,6 +624,7 @@ const blogPosts = [
   },
   {
     id: 21,
+    thumbnailSrc: '/images/thumbnails/tn_prepareWinter.jpg',
     imgSrc: '/images/prepareWinter.jpg',
     alt: 'How to Prepare Your Car for Winter: Essential Tips',
     title: 'How to Prepare Your Car for Winter: Essential Tips for Safe and Hassle-Free Driving',
@@ -632,6 +653,7 @@ const blogPosts = [
   },
   {
     id: 22,
+    thumbnailSrc: '/images/thumbnails/tn_teslaAnnounces.jpg',
     imgSrc: '/images/teslaAnnounces.jpg',
     alt: 'Tesla Announces New Affordable Electric Vehicle Model',
     title: 'Tesla Announces New Affordable Electric Vehicle Model: Could This Be the Game Changer?',
@@ -657,6 +679,7 @@ const blogPosts = [
   },
   {
     id: 23,
+    thumbnailSrc: '/images/thumbnails/tn_extendtheBatteryLife.jpg',
     imgSrc: '/images/extendtheBatteryLife.jpg',
     alt: 'How to Extend the Life of Your Car Battery',
     title: 'How to Extend the Life of Your Car Battery: Tips and Tricks',
@@ -688,6 +711,7 @@ const blogPosts = [
   },
   {
     id: 24,
+    thumbnailSrc: '/images/thumbnails/tn_audiQ7Review.jpg',
     imgSrc: '/images/audiQ7Review.jpg',
     alt: '2024 Audi Q7 Review: Luxury, Performance, and Technology',
     title: '2024 Audi Q7 Review: Luxury, Performance, and Technology Wrapped in One',
@@ -716,6 +740,7 @@ const blogPosts = [
   },
   {
     id: 25,
+    thumbnailSrc: '/images/thumbnails/tn_electricPickupTrucks.jpg',
     imgSrc: '/images/electricPickupTrucks.jpg',
     alt: 'The Rise of Electric Pickup Trucks: Are They the Future?',
     title: 'The Rise of Electric Pickup Trucks: Are They the Future of the Automotive Industry?',
@@ -744,6 +769,7 @@ const blogPosts = [
   },
   {
     id: 26,
+    thumbnailSrc: '/images/thumbnails/tn_buyingaUsedCar.jpg',
     imgSrc: '/images/buyingaUsedCar.jpg',
     alt: 'The Ultimate Guide to Buying a Used Car: Tips and Tricks',
     title: 'The Ultimate Guide to Buying a Used Car: Avoiding Common Pitfalls',
@@ -772,6 +798,7 @@ const blogPosts = [
   },
   {
     id: 27,
+    thumbnailSrc: '/images/thumbnails/tn_maintenanceMyths.jpg',
     imgSrc: '/images/maintenanceMyths.jpg',
     alt: 'Top 10 Car Maintenance Myths Debunked',
     title: 'Top 10 Car Maintenance Myths Debunked: What You Need to Know',
@@ -815,6 +842,7 @@ const blogPosts = [
   },
   {
     id: 28,
+    thumbnailSrc: '/images/thumbnails/tn_electricVehicleTaxCredits.jpg',
     imgSrc: '/images/electricVehicleTaxCredits.jpg',
     alt: 'Electric Vehicle Tax Credits: What You Need to Know',
     title: 'Electric Vehicle Tax Credits: What You Need to Know in 2024',
@@ -843,6 +871,7 @@ const blogPosts = [
   },
   {
     id: 29,
+    thumbnailSrc: '/images/thumbnails/tn_extendtheRange.jpg',
     imgSrc: '/images/extendtheRange.jpg',
     alt: 'How to Extend the Range of Your Electric Vehicle: 10 Practical Tips',
     title: 'How to Extend the Range of Your Electric Vehicle: 10 Practical Tips',
@@ -886,6 +915,7 @@ const blogPosts = [
   },
   {
     id: 30,
+    thumbnailSrc: '/images/thumbnails/tn_fordMustangMachE.jpg',
     imgSrc: '/images/fordMustangMachE.jpg',
     alt: '2024 Ford Mustang Mach-E Review: The Electric Pony That Packs a Punch',
     title: '2024 Ford Mustang Mach-E Review: The Electric Pony That Packs a Punch',
@@ -914,6 +944,7 @@ const blogPosts = [
   },
   {
     id: 31,
+    thumbnailSrc: '/images/thumbnails/tn_winterCarCare.jpg',
     imgSrc: '/images/winterCarCare.jpg',
     alt: 'Winter Car Care Tips: How to Keep Your Vehicle in Top Shape During the Cold Months',
     title: 'Winter Car Care Tips: How to Keep Your Vehicle in Top Shape During the Cold Months',
@@ -943,6 +974,7 @@ const blogPosts = [
   },
   {
     id: 32,
+    thumbnailSrc: '/images/thumbnails/tn_top5ElectricCars.jpg',
     imgSrc: '/images/top5ElectricCars.jpg',
     alt: 'Top 5 Electric Cars for 2024: Which One is Right for You?',
     title: 'Top 5 Electric Cars for 2024: Which One is Right for You?',
@@ -971,6 +1003,7 @@ const blogPosts = [
   },
   {
     id: 33,
+    thumbnailSrc: '/images/thumbnails/tn_toyotaCorollaHybrid.jpg',
     imgSrc: '/images/toyotaCorollaHybrid.jpg',
     alt: '2024 Toyota Corolla Hybrid Review: Is This the Perfect Daily Driver?',
     title: '2024 Toyota Corolla Hybrid Review: Is This the Perfect Daily Driver?',
@@ -1002,6 +1035,7 @@ const blogPosts = [
   },
   {
     id: 34,
+    thumbnailSrc: '/images/thumbnails/tn_revolutionizingCarSafety.jpg',
     imgSrc: '/images/revolutionizingCarSafety.jpg',
     alt: 'Revolutionizing Car Safety: The Latest in Crash-Avoidance Technology',
     title: 'Revolutionizing Car Safety: The Latest in Crash-Avoidance Technology',
@@ -1036,6 +1070,7 @@ const blogPosts = [
   },
   {
     id: 35,
+    thumbnailSrc: '/images/thumbnails/tn_toyotaSupra.jpg',
     imgSrc: '/images/toyotaSupra.jpg',
     alt: '2024 Toyota Supra Review: A Modern Classic with Thrills to Spare',
     title: '2024 Toyota Supra Review',
@@ -1067,6 +1102,7 @@ const blogPosts = [
   },
   {
     id: 36,
+    thumbnailSrc: '/images/thumbnails/tn_rivianR1SReview.jpg',
     imgSrc: '/images/rivianR1SReview.jpg',
     alt: 'The Future of Electric SUVs: 2024 Rivian R1S Review',
     title: 'The Future of Electric SUVs: 2024 Rivian R1S Review',
@@ -1098,6 +1134,7 @@ const blogPosts = [
   },
   {
     id: 37,
+    thumbnailSrc: '/images/thumbnails/tn_mazda.jpg',
     imgSrc: '/images/mazda.jpg',
     alt: '2024 Mazda MX-5 Miata: A Modern Classic Roadster',
     title: '2024 Mazda MX-5 Miata: A Modern Classic Roadster',
@@ -1129,6 +1166,7 @@ const blogPosts = [
   },
   {
     id: 38,
+    thumbnailSrc: '/images/thumbnails/tn_teslaModelY.jpg',
     imgSrc: '/images/teslaModelY.jpg',
     alt: '2024 Tesla Model Y: The Electric SUV for Everyday Life',
     title: '2024 Tesla Model Y: The Electric SUV for Everyday Life',
@@ -1160,6 +1198,7 @@ const blogPosts = [
   },
   {
     id: 39,
+    thumbnailSrc: '/images/thumbnails/tn_signsforTuneUp.jpg',
     imgSrc: '/images/signsforTuneUp.jpg',
     alt: 'Top 5 Signs Your Car Needs a Tune-Up ASAP',
     title: 'Top 5 Signs Your Car Needs a Tune-Up ASAP',
@@ -1188,6 +1227,7 @@ const blogPosts = [
   },
   {
     id: 40,
+    thumbnailSrc: '/images/thumbnails/tn_electricVehicles5 Years.jpg',
     imgSrc: '/images/electricVehicles5 Years.jpg',
     alt: 'The Future of Electric Vehicles: What to Expect in the Next 5 Years',
     title: 'The Future of Electric Vehicles: What to Expect in the Next 5 Years',
@@ -1216,6 +1256,7 @@ const blogPosts = [
   },
   {
     id: 41,
+    thumbnailSrc: '/images/thumbnails/tn_checkEngineLight.jpg',
     imgSrc: '/images/checkEngineLight.jpg',
     alt: 'Why Your Check Engine Light Is On: Common Causes and Fixes',
     title: 'Why Your Check Engine Light Is On: Common Causes and Fixes',
@@ -1248,6 +1289,7 @@ const blogPosts = [
   },
   {
     id: 42,
+    thumbnailSrc: '/images/thumbnails/tn_hybridvsElectric.jpg',
     imgSrc: '/images/hybridvsElectric.jpg',
     alt: 'Hybrid vs. Electric: Which Green Car Is Right for You?',
     title: 'Hybrid vs. Electric: Which Green Car Is Right for You?',
@@ -1308,6 +1350,7 @@ const blogPosts = [
   },
   {
     id: 43,
+    thumbnailSrc: '/images/thumbnails/tn_theFuture10Years.jpg',
     imgSrc: '/images/theFuture10Years.jpg',
     alt: 'The Future of Electric Cars: What to Expect in the Next 10 Years',
     title: 'The Future of Electric Cars: What to Expect in the Next 10 Years',
@@ -1340,6 +1383,7 @@ const blogPosts = [
   },
   {
     id: 44,
+    thumbnailSrc: '/images/thumbnails/tn_hondaCivic.jpg',
     imgSrc: '/images/hondaCivic.jpg',
     alt: '2024 Honda Civic: A Fun and Reliable Daily Driver',
     title: '2024 Honda Civic: A Fun and Reliable Daily Driver',
@@ -1369,6 +1413,7 @@ const blogPosts = [
   },
   {
     id: 45,
+    thumbnailSrc: '/images/thumbnails/tn_detailYourCar.jpg',
     imgSrc: '/images/detailYourCar.jpg',
     alt: 'How to Detail Your Car Like a Pro',
     title: 'How to Detail Your Car Like a Pro',
@@ -1412,6 +1457,7 @@ const blogPosts = [
   },
   {
     id: 46,
+    thumbnailSrc: '/images/thumbnails/tn_hydrogenFuelCell.jpg',
     imgSrc: '/images/hydrogenFuelCell.jpg',
     alt: 'The Rise of Hydrogen Fuel Cell Vehicles: The Future of Clean Energy?',
     title: 'The Rise of Hydrogen Fuel Cell Vehicles: The Future of Clean Energy?',
@@ -1453,6 +1499,7 @@ const blogPosts = [
   },
   {
     id: 47,
+    thumbnailSrc: '/images/thumbnails/tn_mythsAboutEV.jpg',
     imgSrc: '/images/mythsAboutEV.jpg',
     alt: 'Top 5 Myths About Electric Vehicles – Busted!',
     title: 'Top 5 Myths About Electric Vehicles – Busted!',

@@ -32,7 +32,7 @@ export default function BuyingGuides() {
           <div key={post.id}>
             <ArticleCard
               id={post.id}
-              imgSrc={post.imgSrc}
+              thumbnailSrc={post.thumbnailSrc}
               title={post.title}
               excerpt={post.excerpt}
               author={post.author}

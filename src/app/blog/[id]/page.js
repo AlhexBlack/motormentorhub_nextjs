@@ -16,7 +16,7 @@ export default function BlogPost({ params }) {
     return (
         <div className={styles.articleContainer}>
             <article className={styles.article}>
-                <Image className={styles.imgAd} src={post.imgSrc} alt={post.title} />
+                <Image className={styles.imgAd} src={post.imgSrc} alt={post.title} width={1080} height={520} />
                 <h1 className={styles.titleAd}>{post.title}</h1>
                 <h3 className={styles.excerptAd}>{post.excerpt}</h3>
 
@@ -37,7 +37,7 @@ export default function BlogPost({ params }) {
                         <ArticleCard
                             key={post.id}
                             id={post.id}
-                            imgSrc={post.imgSrc}
+                            thumbnailSrc={post.thumbnailSrc}
                             title={post.title}
                             size={"small"}
                             excerpt={""}

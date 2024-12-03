@@ -4,12 +4,12 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import styles from '../styles/ArticleCard.module.css';
 import Image from 'next/image';
 
-function ArticleCard({ id, title, size, imgSrc, excerpt, author, date }) {
+function ArticleCard({ id, title, size, thumbnailSrc, excerpt, author, date }) {
   return (
     <div className={`${styles.articleCard} ${styles[size]}`}>
       <div className={styles.img}>
         <Link href={`/blog/${id}`} passHref>
-          <Image src={imgSrc} alt={title} />
+          <Image src={thumbnailSrc} width={385} height={257} alt={title} placeholder='blur' blurDataURL={thumbnailSrc} style={{objectFit: "c"}}/>
         </Link>
       </div>
 

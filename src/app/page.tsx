@@ -50,7 +50,7 @@ export default function Home() {
           <div key={post.id}>
             <ArticleCard
               id={post.id}
-              imgSrc={post.imgSrc}
+              thumbnailSrc={post.thumbnailSrc}
               title={post.title}
               excerpt={post.excerpt}
               author={post.author}
